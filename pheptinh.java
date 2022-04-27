@@ -47,6 +47,7 @@ public class pheptinh {
 	 * Create the application.
 	 */
 	//Kiem tra xem cho nhap du lieu chua
+	//commit lai
 	public boolean Ktra() {
 		if(texta.getText().isEmpty()||textb.getText().isEmpty()) {
 			return false;

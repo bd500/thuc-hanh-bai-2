@@ -46,6 +46,7 @@ public class pheptinh {
 	/**
 	 * Create the application.
 	 */
+	//ktra co nhap du lieu hay khong
 	public boolean Ktra() {
 		if(texta.getText().isEmpty()||textb.getText().isEmpty()) {
 			return false;
