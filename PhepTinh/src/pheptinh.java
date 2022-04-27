@@ -73,6 +73,9 @@ public class pheptinh {
 					if(rdbtnnhan.isSelected()) {
 						textkq.setText(a*b+"");
 					}
+					if(rdbtnchia.isSelected()) {
+						textkq.setText(a/b+"");
+					}
 				}
 			}
 		});
