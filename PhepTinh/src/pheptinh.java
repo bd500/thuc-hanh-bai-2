@@ -47,7 +47,10 @@ public class pheptinh {
 	 * Create the application.
 	 */
 	public boolean Ktra() {
-
+		if(texta.getText().isEmpty()||textb.getText().isEmpty()) {
+			return false;
+		}
+		return true;
 	}
 	public pheptinh() {
 		initialize();
@@ -56,7 +59,14 @@ public class pheptinh {
 		btnxacnhan = new JButton("X\u00E1c nh\u1EADn");
 		btnxacnhan.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				
+				double a,b;
+				a = Double.parseDouble(texta.getText().toString());
+				b = Double.parseDouble(textb.getText().toString());
+				if(Ktra()) {
+					if(rdbtncong.isSelected()) {
+						textkq.setText(a+b+"");
+					}
+				}
 			}
 		});
 		
