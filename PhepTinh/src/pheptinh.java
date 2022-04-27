@@ -70,6 +70,9 @@ public class pheptinh {
 					if(rdbtntru.isSelected()) {
 						textkq.setText(a-b+"");
 					}
+					if(rdbtnnhan.isSelected()) {
+						textkq.setText(a*b+"");
+					}
 				}
 			}
 		});
