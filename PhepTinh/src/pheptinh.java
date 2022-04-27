@@ -67,6 +67,9 @@ public class pheptinh {
 					if(rdbtncong.isSelected()) {
 						textkq.setText(a+b+"");
 					}
+					if(rdbtntru.isSelected()) {
+						textkq.setText(a-b+"");
+					}
 				}
 			}
 		});
