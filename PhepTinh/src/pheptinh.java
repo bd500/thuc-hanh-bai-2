@@ -74,7 +74,7 @@ public class pheptinh {
 						textkq.setText(a*b+"");
 					}
 					if(rdbtnchia.isSelected()) {
-						textkq.setText(a/b+"");
+						textkq.setText(a/b+"");//LAN 2
 					}
 				}
 			}
